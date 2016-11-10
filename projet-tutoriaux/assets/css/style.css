@@ -1,0 +1,79 @@
+body{
+	background-image: url(../img/background.png); 
+	font-family: 'Prociono', serif;
+}
+.container{
+	background-image: linear-gradient(90deg, #325054, #090f0e);
+}
+
+/*TOPHEADER*/
+.topheader .banniere-graphx img{
+	margin-top: 15px;
+	padding-bottom: 10px;
+	margin: auto;
+    padding-top: 15px;
+}
+
+.topheader h1{
+	margin-top: 5px;
+	padding-bottom: 15px;
+	text-align: center;
+	color: #a5aaab;
+	text-align: center;
+}
+
+/*HEADER*/
+.partenaires h2{
+	text-align: center;
+	color: #a5aaab;
+}
+.logos .img-container img{
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	 -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.logos .img-container img:hover {
+	 -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    border-radius: 10px;
+}
+
+.contour{
+	background-image: linear-gradient(90deg, #090f0e, #325054);
+}
+/*SECTION*/
+.menu{
+	width: 103%;
+}
+.menu ul{
+	text-align: center;
+}
+
+.menu ul li{
+	display: inline-block;
+	text-align: center;
+	padding-right: 100px;
+    font-size: 30px;
+    
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: #a5aaab;
+}
+.menu ul li.current a{
+	font-weight: bold;
+	color: #ccd0c8;
+	font-size: 40px;
+}
+
+.menu ul li a:hover{
+	text-decoration: underline;
+	color: red;
+
+	
+}
